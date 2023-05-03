@@ -68,21 +68,21 @@ int main(){
                  printf("enter the number how many element cretae a binary search tree ");
                  scanf("%d",&n);
                  printf("enter the number");
-                 for(int i=1;i<n;i++){
+                 for(int i=1;i<=n;i++){
                  scanf("%d",&elements);
                  root=insert(root,elements);
             }
                 break;
             case 2:
-                printf("preorder traversa");
+                printf("preorder traversal\n");
                 preorder(root);
                 break;
             case 3:
-                printf("postorder traversal");
+                printf("postorder traversal\n");
                 postorder(root);
                 break;
             case 4:
-                printf("inorder traversal");
+                printf("inorder traversal\n");
                 inorder(root);
                 break;
             case 5:
